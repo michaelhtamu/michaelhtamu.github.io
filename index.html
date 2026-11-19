@@ -4,15 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Michael Ho — Portfolio</title>
-  <link rel="stylesheet" href="style.css" /> 
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- Top Navigation -->
   <header class="navbar">
+    <a href="#" class="logo">michael<span class="accent">.ho</span></a>
     <nav>
-      <a href="#projects">Projects</a>
       <a href="#coursework">Coursework</a>
+      <a href="#skills">Skills</a>
       <a href="resume.pdf" target="_blank">Resume</a>
       <a href="https://github.com/michaelhtamu" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/michael-h-2b8606384/" target="_blank">LinkedIn</a>
@@ -25,51 +26,62 @@
     <section class="hero">
       <span class="status-pill">● Open to Summer 2027 Internships</span>
       <h1>Michael Ho</h1>
-      <p class="subtitle">ECEN + MATH · Texas A&M University</p>
+      <p class="subtitle">Electrical Engineering & Mathematics · Texas A&M University</p>
       <p class="bio">
-        I study Electrical Engineering and Mathematics at TAMU. I am passionate about learning and applying RF & Microwaves.
+        Junior/Sophomore EE & Math student at TAMU passionate about RF & Microwave engineering, electromagnetics, and digital hardware design.
       </p>
       <div class="hero-actions">
-        <a href="#projects" class="btn-primary">View projects</a>
+        <a href="#coursework" class="btn-primary">View coursework</a>
         <a href="resume.pdf" target="_blank" class="btn-secondary">Resume (PDF)</a>
         <a href="mailto:mhoschool6@tamu.edu" class="btn-ghost">Email →</a>
       </div>
     </section>
 
-    <!-- ECEN 248 Spotlight -->
-    <section id="projects" class="spotlight">
-      <div class="spotlight-header">
-        <span class="badge">Latest Project</span>
-        <span class="mono-meta">Fall 2026 · In progress</span>
+    <!-- Coursework & Lab Experience -->
+    <section id="coursework" class="section">
+      <div class="section-header">
+        <h2>Coursework & Lab Experience</h2>
+        <span class="section-sub">Texas A&M University</span>
       </div>
-      <h2>ECEN 248 Labs</h2>
-      <p>
-        Designed, simulated, and implemented combinational and sequential digital logic circuits from physical hardware to FPGA deployment. Wired and tested 7400-series TTL logic gates, multiplexers, decoders, and a 4-bit arithmetic logic unit (ALU) on breadboards using DC power supplies and digital multimeters. Transitioned to hardware description modeling using Verilog HDL in Xilinx Vivado to write testbenches, verify simulation waveforms, and synthesize finite state machines (FSMs), counters, and clock dividers onto an FPGA board.
-      </p>
-      <div class="spotlight-footer">
+
+      <article class="spotlight">
+        <div class="spotlight-header">
+          <span class="badge">ECEN 248 · Digital Systems Design</span>
+          <span class="mono-meta">Fall 2026</span>
+        </div>
+        <h3>Hardware Prototyping & FPGA Logic Design</h3>
+        <p>
+          Designed, simulated, and implemented combinational and sequential digital logic circuits from physical breadboard prototyping to FPGA deployment. Wired and debugged 7400-series TTL logic gates, multiplexers, decoders, and a 4-bit arithmetic logic unit (ALU) using DC power supplies and digital multimeters. Modeled finite state machines (FSMs), counters, carry-lookahead adders, and clock dividers in Verilog HDL using Xilinx Vivado, verifying waveforms via testbenches before synthesizing onto a ZYBO Z7-10 FPGA board.
+        </p>
         <div class="tags">
           <span>Verilog HDL</span>
           <span>Xilinx Vivado</span>
-          <span>FPGA</span>
+          <span>ZYBO Z7-10 FPGA</span>
           <span>Digital Logic Design</span>
+          <span>7400-Series TTL</span>
           <span>Hardware Debugging</span>
-          <span>Circuit Prototyping</span>
         </div>
-      </div>
+      </article>
     </section>
 
-    <!-- Section 3: Coursework -->
-    <section id="coursework" class="section">
+    <!-- Technical Focus & Skills -->
+    <section id="skills" class="section">
       <div class="section-header">
-        <h2>Relevant Coursework</h2>
-        <span class="section-sub">Labs</span>
+        <h2>Technical Focus & Tools</h2>
+        <span class="section-sub">Core competencies</span>
       </div>
 
       <div class="grid">
-        <article class="card compact">
-          <h3>ECEN 248 — Introduction to Digital Systems Design</h3>
-          <p>Designed, simulated, and implemented combinational and sequential digital logic circuits—including a 4-bit ALU, carry-lookahead adder, and finite state machine traffic light controller—using breadboarded 7400-series ICs, Verilog HDL, Vivado, and a ZYBO Z7-10 FPGA board.</p>
-          <span class="mono-meta">Fall 2026</span>
+        <article class="card">
+          <span class="card-kicker">01 // Hardware & Digital</span>
+          <h3>Digital Systems & Lab Bench</h3>
+          <p>Combinational/sequential circuit design, breadboard prototyping, testbench verification, digital multimeters, and DC power supplies.</p>
+        </article>
+
+        <article class="card">
+          <span class="card-kicker">02 // Areas of Interest</span>
+          <h3>RF, Microwaves & Applied Math</h3>
+          <p>Focused on high-frequency circuit behavior, wave propagation, electromagnetics, and mathematical modeling for signal systems.</p>
         </article>
       </div>
     </section>
@@ -77,7 +89,7 @@
   </main>
 
   <footer>
-    <span>© 2026 Michael Ho</span>
+    <span>© 2026 Michael Ho · College Station, TX</span>
     <a href="mailto:mhoschool6@tamu.edu">mhoschool6@tamu.edu</a>
   </footer>
 
