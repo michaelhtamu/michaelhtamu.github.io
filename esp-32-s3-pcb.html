@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ESP32-S3 Development Board — Michael Ho</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="logo">
+      michael<span class="accent">ho</span>
+    </a>
+
+    <nav>
+      <a href="index.html#coursework">Coursework</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="resume.pdf" target="_blank">Resume</a>
+      <a href="https://github.com/michaelhtamu" target="_blank">GitHub</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <span class="status-pill">IEEE TAMU · PCB Design · 2026</span>
+
+      <h1>ESP32-S3 Development Board</h1>
+
+      <p class="subtitle">Four-Layer PCB Design · KiCad 9</p>
+
+      <p class="bio">
+        A custom ESP32-S3 development board designed in KiCad as part of
+        an IEEE Texas A&M PCB design workshop. The project involved
+        schematic capture, component placement, PCB routing, and
+        finalization of the board's 3D model.
+      </p>
+
+      <div class="hero-actions">
+        <a href="index.html#projects" class="btn-secondary">
+          ← Back to Projects
+        </a>
+
+        <a
+          href="https://github.com/michaelhtamu/esp32-s3-devboard-pcb"
+          target="_blank"
+          class="btn-primary"
+        >
+          View Source on GitHub
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Project Overview</h2>
+        <span class="section-sub">Design & Implementation</span>
+      </div>
+
+      <article class="spotlight">
+        <h3>Board Architecture</h3>
+
+        <p>
+          The board is based on the ESP32-S3-MINI-1-N8 module and
+          incorporates USB-C connectivity, power regulation, input
+          controls, and peripheral interfaces. The four-layer PCB
+          provides dedicated power and ground planes alongside
+          the signal routing layers.
+        </p>
+
+        <div class="tags">
+          <span>ESP32-S3-MINI-1-N8</span>
+          <span>USB-C</span>
+          <span>TLV75801 LDO</span>
+          <span>ENS210 Sensor</span>
+          <span>RGB LED</span>
+          <span>GPIO Headers</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>PCB Design</h2>
+        <span class="section-sub">KiCad 3D Viewer</span>
+      </div>
+
+      <div class="project-gallery">
+
+        <figure>
+          <img
+            src="images/esp32-s3-board.webp"
+            alt="Angled 3D render of the completed ESP32-S3 PCB"
+          />
+          <figcaption>
+            Completed PCB assembly with USB-C connector, GPIO headers,
+            buttons, and component placement.
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/esp32-s3-board-top.webp"
+            alt="Top-down 3D view of the ESP32-S3 development board"
+          />
+          <figcaption>
+            Top-down view of the board layout and component arrangement.
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/esp32-s3-board-layout.webp"
+            alt="PCB routing and component placement in KiCad"
+          />
+          <figcaption>
+            PCB layout showing component footprints, routing, and
+            board organization.
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Technical Work</h2>
+        <span class="section-sub">Design Process</span>
+      </div>
+
+      <div class="grid">
+
+        <article class="card">
+          <span class="card-kicker">01 // Schematic</span>
+          <h3>Circuit Design</h3>
+          <p>
+            Developed the schematic around the ESP32-S3 module,
+            power regulation, USB connectivity, and peripheral
+            components.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="card-kicker">02 // PCB Layout</span>
+          <h3>Routing & Placement</h3>
+          <p>
+            Arranged components and completed the remaining GPIO
+            connections, signal routing, and internal copper pours
+            beyond the guided workshop exercises.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="card-kicker">03 // Visualization</span>
+          <h3>3D Model Finalization</h3>
+          <p>
+            Completed the PCB layout and finalized the three-dimensional
+            board model in KiCad.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Tools & Technologies</h2>
+        <span class="section-sub">Technical Stack</span>
+      </div>
+
+      <div class="tags">
+        <span>KiCad 9</span>
+        <span>Schematic Capture</span>
+        <span>PCB Layout</span>
+        <span>Four-Layer PCB</span>
+        <span>Signal Routing</span>
+        <span>3D Visualization</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>© 2026 Michael Ho · College Station, TX</span>
+    <a href="mailto:mhoschool6@tamu.edu">mhoschool6@tamu.edu</a>
+  </footer>
+
+</body>
+</html>
